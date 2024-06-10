@@ -1,8 +1,0 @@
-haifan:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    host: 1.117.232.232
-    port: 3306
-    database: haifan_take_out
-    username: root
-    password: ""
