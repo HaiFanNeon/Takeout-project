@@ -36,9 +36,10 @@ public interface EmployeeMapper {
 
     /**
      * 启用禁用员工账号
+     * 这个方法是用来修改数据的，不仅仅可以使账户启用或禁用
      * @param emp
      */
-    void startOrStop(Employee.EmployeeBuilder emp);
+    void startOrStop(Employee emp);
 
     /**
      * 根据id查询员工信息
