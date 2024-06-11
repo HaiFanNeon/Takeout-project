@@ -39,4 +39,12 @@ public interface EmployeeMapper {
      * @param emp
      */
     void startOrStop(Employee.EmployeeBuilder emp);
+
+    /**
+     * 根据id查询员工信息
+     * @param id
+     * @return Employee
+     */
+    @Select ("select * from employee where id = #{id}")
+    Employee getById(Integer id);
 }
